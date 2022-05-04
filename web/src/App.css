@@ -1,0 +1,141 @@
+.App {
+  font-family: "Kanit", sans-serif;
+  padding: 75px 0;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App-title {
+  text-align: center;
+  font-size: 4.5em;
+  color: #00aeff;
+  margin: 24px;
+}
+/* Card */
+
+.card {
+  margin: 24px 0 48px 0;
+  /* border: 1px solid #000; */
+}
+
+.card-title {
+  font-size: 1.75em;
+  font-weight: bolder;
+  margin: 0 0 5px;
+  color: #000;
+}
+
+.card-title:hover {
+  color: #00aeff;
+}
+
+.card-content {
+  width: 50%;
+  font-size: 1.15em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-description {
+  font-size: 1.15em;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+}
+
+.card-read-more {
+  color: #00aeff;
+  text-decoration: underline;
+}
+
+.card-tag {
+  text-decoration: underline;
+  padding: 5px;
+  cursor: pointer;
+  color: #000;
+}
+
+.card-image-main {
+  border-radius: 20px;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.card-image-sub {
+  object-fit: cover;
+  border-radius: 20px;
+  width: 100px;
+  height: 100px;
+}
+
+/* Input */
+
+input {
+  border: none;
+  height: 30px;
+  border-bottom: 1px solid rgb(134, 134, 134);
+  font-size: 1.15em;
+  margin: 0 0 16px 0;
+  text-align: center;
+
+  width: 90%;
+}
+
+input:focus-visible,
+input:focus {
+  outline: none;
+  border-bottom: 1px solid #00aeff;
+}
+
+/* Flex */
+.flex-container {
+  display: flex;
+}
+.flex-container > div {
+  margin: 0 24px 0 0;
+}
+
+.flex-container > #content {
+  margin: 0;
+}
+
+.flex-container > #img {
+  margin: 0 16px 0 0;
+}

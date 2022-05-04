@@ -1,0 +1,9 @@
+*.jpg
+*.MD
+*.yaml
+node_modules
+build
+.env
+yarn.lock
+Dockerfile
+.dockerignore
